@@ -6,20 +6,24 @@
       Scroll to discover the gallery
       <Icon icon="bi:arrow-down-short"></Icon>
     </div>
+
+    <PictureGallery />
     <!-- <YoutubePlayer /> -->
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import YoutubePlayer from "@/components/YoutubePlayer.vue";
+//import YoutubePlayer from "@/components/YoutubePlayer.vue";
 import VideoHeadline from "@/components/VideoHeadline.vue";
 import { Icon } from "@iconify/vue";
+import PictureGallery from '@/components/PictureGallery.vue';
 
 export default {
   name: "HomeView",
   components: {
     // YoutubePlayer,
+    PictureGallery,
     VideoHeadline,
     Icon,
   },

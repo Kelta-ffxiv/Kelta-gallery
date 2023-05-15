@@ -58,16 +58,12 @@ export default {
   height: 85vh;
 }
 .videoheadline-video {
-  width: 100%;
-  /* float: left; */
-  display: flex;
-  top: -25%;
-  left: 0;
-  /* margin-top: -50%; */
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  position: absolute;
+    display: flex;
+    top: -25%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
 }
 
 .videoheadline-mute {
